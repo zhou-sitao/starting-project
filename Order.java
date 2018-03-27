@@ -18,8 +18,8 @@ public class Order {
 		this.name = name;
 	}
 
-	public int calc() {
-		return id++;
+	public int calculate() {
+		return id--;
 	}
 	public int syncroId() {
 		return id + 4;
