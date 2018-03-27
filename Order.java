@@ -17,4 +17,9 @@ public class Order {
 	public void setName(int name){
 		this.name = name;
 	}
+	
+	public int calc() {
+		return id++;
+	}
+	
 }
