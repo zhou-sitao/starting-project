@@ -18,6 +18,12 @@ public class Order {
 		this.name = name;
 	}
 
+	public int getOrderListId(){
+		return orderListId;
+	}
+	public void setOrderListId(int orderListId){
+		this.orderListId = orderListId;
+	}
 	public int calculate() {
 		return id--;
 	}
