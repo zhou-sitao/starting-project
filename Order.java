@@ -2,7 +2,7 @@ public class Order {
 	
 	private int id;
 	private String name;
-	private int orderListId;
+	private int orderLitsId;
 	
 	public int getId(){
 		return id;
@@ -22,7 +22,11 @@ public class Order {
 		return id++;
 	}
 	public int syncroId() {
-		return id + 5;
+		return id + 4;
+	}
+	
+	public void pr() {
+		name = "go";
 	}
 
 }
