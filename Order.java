@@ -2,7 +2,7 @@ public class Order {
 	
 	private int id;
 	private String name;
-	private int orderLitsId;
+	private int orderListId;
 	
 	public int getId(){
 		return id;
@@ -28,5 +28,6 @@ public class Order {
 	public void pr() {
 		
 	}
+	
 
 }
