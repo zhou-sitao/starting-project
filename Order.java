@@ -24,5 +24,7 @@ public class Order {
 	public int syncroId() {
 		return id + 5;
 	}
+	public void pr(){
+	}
 
 }
