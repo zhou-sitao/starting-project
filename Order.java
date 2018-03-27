@@ -26,7 +26,7 @@ public class Order {
 	}
 	
 	public void pr() {
-		
+		name = "go";
 	}
 	
 
