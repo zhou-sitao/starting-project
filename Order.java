@@ -28,6 +28,9 @@ public class Order {
 	public void pr() {
 		
 	}
+	public void ar(){
+		
+	}
 	
 
 }
