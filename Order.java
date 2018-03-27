@@ -25,6 +25,8 @@ public class Order {
 		this.orderListId = orderListId;
 	}
 	public int calc() {
+		id++;
+		id--;
 		return id++;
 	}
 	public int syncroId() {
