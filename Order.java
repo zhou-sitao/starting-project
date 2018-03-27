@@ -24,10 +24,11 @@ public class Order {
 	public void setOrderListId(int orderListId){
 		this.orderListId = orderListId;
 	}
-	public int calc() {
+
+	public int calculate() {
 		id++;
 		id--;
-		return id++;
+		return id--;
 	}
 	public int syncroId() {
 		return id + 4;
