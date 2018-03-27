@@ -2,7 +2,7 @@ public class Order {
 	
 	private int id;
 	private String name;
-	private int listId;
+	private int litsId;
 	
 	public int getId(){
 		return id;
